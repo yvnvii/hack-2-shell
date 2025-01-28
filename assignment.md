@@ -35,7 +35,7 @@ Problem
 Check and clean the species names and missing values (`NA`) in `iris-data-dirty.csv`. Replace misspelled names, remove lines with `NA`, and save the cleaned data as `iris-data-clean.csv`. List the number of data values for each species.
 
 Solution
-Check for misspelled names and missing values:
+Check for missing values:
 
 grep -i 'NA' iris-data-dirty.csv
 grep -v -i 'setosa\|versicolor\|virginica' iris-data-dirty.csv
