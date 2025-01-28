@@ -11,8 +11,8 @@ Download them
 ### Solution
 #### Download files:
 ```bash
-curl -O http://eaton-lab.org/pdsb/test.fastq.gz
-curl -O http://eaton-lab.org/pdsb/iris-data-dirty.csv
+curl -L -o http://eaton-lab.org/pdsb/test.fastq.gz
+curl -L -o http://eaton-lab.org/pdsb/iris-data-dirty.csv
 ```
 
 #### View files:
