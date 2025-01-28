@@ -4,11 +4,9 @@
 ## Question 1: Get the data files
 
 ### Problem
-Download the following data files using the `curl` command:
+Download them
 - [test.fastq.gz](http://eaton-lab.org/pdsb/test.fastq.gz)
 - [iris-data-dirty.csv](http://eaton-lab.org/pdsb/iris-data-dirty.csv)
-
-Use `less` or `zless` to view the files. Finally, use the `head` command to print the first 5 lines of the file `iris-data-dirty.csv`.
 
 ### Solution
 #### Download files:
